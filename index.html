@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,7 +73,7 @@
       align-self: flex-end;
     }
     .message.user img.avatar {
-      margin-left: 10px;
+      margin-right: 10px; /* Adjusted to position avatar on the right */
     }
     .message.it {
       justify-content: flex-start;
@@ -167,8 +168,8 @@
       }
 
       if (message.type === 'user') {
-        messageElement.appendChild(content);
         messageElement.appendChild(avatar);
+        messageElement.appendChild(content);
       } else {
         messageElement.appendChild(avatar);
         messageElement.appendChild(content);
