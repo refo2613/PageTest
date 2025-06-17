@@ -38,7 +38,6 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      margin-right: 10px;
     }
     .message-content {
       max-width: 70%;
@@ -47,15 +46,24 @@
       font-size: 16px;
       line-height: 1.5;
     }
+    .message.user {
+      flex-direction: row-reverse;
+    }
     .message.user .message-content {
+      background-color: #d9fdd3;
+      color: black;
+      align-self: flex-end;
+    }
+    .message.user img.avatar {
+      margin-left: 10px;
+    }
+    .message.it .message-content {
       background-color: #ffffff;
       color: black;
       align-self: flex-start;
     }
-    .message.it .message-content {
-      background-color: #d9fdd3;
-      color: black;
-      align-self: flex-end;
+    .message.it img.avatar {
+      margin-right: 10px;
     }
     .message img.screenshot {
       max-width: 200px;
