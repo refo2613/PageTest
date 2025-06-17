@@ -137,8 +137,10 @@
 
   <script>
     const messages = [
-      { type: 'user', text: '哎呀，我有一个IT单子有几天了。\n现在也不知道什么进度了。' },
-      { type: 'it', text: '我们一起看一下吧。\n先进入MyServices页面。' },
+      { type: 'user', text: '哎呀，我有一个IT单子有几天了' },
+      { type: 'user', text: '现在也不知道什么进度了' },
+      { type: 'it', text: '我们一起看一下吧' },
+      { type: 'it', text: '先进入MyServices页面' },
       { type: 'it', image: '1-Shortcut.png' },
       { type: 'it', text: '如果是手机浏览器，会需要先输入密码和验证码。' },
       { type: 'it', image: '2-authentication.jpg' },
@@ -146,14 +148,20 @@
       { type: 'it', image: '3-MyRequest.jpg' },
       { type: 'user', text: '好，我找到单子了。' },
       { type: 'user', image: '4-foundTicket.jpg' },
-      { type: 'it', text: '点进去，中间可以留言。\n下面是单子的处理记录。' },
+      { type: 'it', text: '点进去，中间可以留言。' },
+      { type: 'it', text: '下面是单子的处理记录。' },
       { type: 'it', image: '5-TicketP1.jpg' },   
-      { type: 'it', text: '再往下，有单子状态。\n这张单子是In Progress。\n还可以上传截图等附件。' },   
+      { type: 'it', text: '再往下，有单子状态。' },   
+      { type: 'it', text: '这张单子是In Progress。' },   
+      { type: 'it', text: '还可以上传截图等附件。' },   
       { type: 'it', image: '6-TicketP2.jpg' },   
-      { type: 'user', text: '太好了，让我看看。\n有IT同事留言，说会找我。' },
-      { type: 'it', text: '那请记得保持TEAMS在线。\n后台IT工程师都是全球的。' },   
+      { type: 'user', text: '太好了，让我看看。' },
+      { type: 'user', text: '有IT同事留言，说会找我。' },
+      { type: 'it', text: '那请记得保持TEAMS在线。' },   
+      { type: 'it', text: '后台IT工程师都是全球的。' },  
       { type: 'user', text: '好的，非常感谢！' },
-      { type: 'it', text: 'WEMAKEIT还有一键报单指南。\n欢迎大家使用。' },         
+      { type: 'it', text: 'WEMAKEIT还有一键报单指南。' },      
+      { type: 'it', text: '欢迎大家使用。' },    
     ];
 
     const chatMessages = document.getElementById('chatMessages');
